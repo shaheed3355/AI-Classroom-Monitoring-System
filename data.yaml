@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['Using_phone', 'bend', 'bow_head', 'hand-raising', 'reading', 'sleep', 'turn_head', 'upright', 'writing']
+
+roboflow:
+  workspace: studentyolo
+  project: class-monitoring-5knzm
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/studentyolo/class-monitoring-5knzm/1

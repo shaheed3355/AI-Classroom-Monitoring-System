@@ -1,0 +1,39 @@
+# YOLO Models (large files)
+*.pt
+
+# Dataset folders
+dataset/
+face_dataset/
+hod/
+train/
+valid/
+test/
+
+# Model weights and outputs
+runs/
+*.mp4
+*.jpg
+*.jpeg
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
